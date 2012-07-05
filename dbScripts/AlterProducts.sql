@@ -1,0 +1,17 @@
+--ALTER TABLE PRODUCTS ADD COLUMN PRICESTD double precision NOT NULL DEFAULT 0.00;--
+--ALTER TABLE PRODUCTS ADD COLUMN PRICELIMIT double precision NOT NULL DEFAULT 0.00;--
+
+--ALTER TABLE PRODUCTS ADD COLUMN UNIT  character varying NOT NULL DEFAULT 'UND';
+--ALTER TABLE payments ADD COLUMN NOTES  character varying NOT NULL DEFAULT '';
+--ALTER TABLE additional_prices_for_products ADD COLUMN is_default  boolean NOT NULL DEFAULT false;
+
+--ALTER TABLE customers ADD CONSTRAINT taxid_unique UNIQUE (taxid);
+--ALTER TABLE customers ALTER COLUMN  taxid set not null;
+
+--ALTER TABLE PAYMENTS ADD COLUMN CARDTYPE  character varying;
+--ALTER TABLE TICKETLINES ADD COLUMN UNITSID  character varying;
+--UPDATE TICKETLINES SET UNITSID = substring(cast(ticketlines.attributes as text) from '<entry key="unitid">([^/]*)</entry>.*');
+ALTER TABLE PAYMENTS ADD COLUMN CHANGE  double precision NOT NULL  DEFAULT 0;
+ALTER TABLE PRODUCTS ADD COLUMN VISIBLE  boolean NOT NULL DEFAULT TRUE;
+ALTER TABLE CATEGORIES ADD COLUMN VISIBLE  boolean NOT NULL DEFAULT TRUE;
+ALTER TABLE customers ADD COLUMN tax_exempt  boolean NOT NULL DEFAULT false;
