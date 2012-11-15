@@ -1,0 +1,9 @@
+Cambios en el script AlterProduct.sql:
+  *Los campos PRICESTD, PRICELIMIT no se agregan ya que estan en la tabla aditional_prices_for_products y el campo UNIT esta en product.
+  *Se agrega el campo is_default en la tabla aditional_prices_for_products.
+  *Se agrega el campo CARDTYPE  de la tabla payments.
+  *La tabla customers no se modifica.
+  *Agregar el campo unitsid a la tabla ticketlines
+  *No se hace el UPDATE de la tabla ticketlines.
+
+No se realizan cambios en posSchema.sql.

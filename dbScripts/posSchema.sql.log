@@ -1,0 +1,12 @@
+CREATE TABLE
+psql:posSchema.sql:37: NOTICE:  ALTER TABLE / ADD PRIMARY KEY creará el índice implícito «additional_prices_for_products_pk» para la tabla «additional_prices_for_products»
+ALTER TABLE
+CREATE TABLE
+psql:posSchema.sql:48: NOTICE:  ALTER TABLE / ADD PRIMARY KEY creará el índice implícito «COUNTRY_pk» para la tabla «country»
+ALTER TABLE
+CREATE TABLE
+psql:posSchema.sql:56: NOTICE:  ALTER TABLE / ADD PRIMARY KEY creará el índice implícito «REGION_pk» para la tabla «region»
+ALTER TABLE
+CREATE TABLE
+psql:posSchema.sql:65: NOTICE:  ALTER TABLE / ADD PRIMARY KEY creará el índice implícito «CITY_pk» para la tabla «city»
+ALTER TABLE
