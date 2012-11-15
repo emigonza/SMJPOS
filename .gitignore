@@ -1,3 +1,5 @@
 .DS_Store
 bin/*
-
+# O usar comodines
+*~
+*.swp
