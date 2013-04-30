@@ -1,14 +1,14 @@
---﻿CREATE SEQUENCE TICKET_AUDIT_myid_seq;
---﻿CREATE TABLE TICKET_AUDIT ( 
---﻿	ID integer NOT NULL,
---﻿	PRODUCT_ID varchar(255) NOT NULL,
---﻿	REASON varchar(255) NOT NULL,
---﻿	AFECTS_STOCK boolean NOT NULL,
---﻿    	REASON_TIMESTAMP timestamp NOT NULL,
---﻿        PEOPLE_ID varchar(255) NOT NULL,
---﻿        TICKET_ID varchar(255) NOT NULL
---﻿)
---﻿;
+--CREATE SEQUENCE TICKET_AUDIT_myid_seq;
+--CREATE TABLE TICKET_AUDIT ( 
+--	ID integer NOT NULL,
+--	PRODUCT_ID varchar(255) NOT NULL,
+--	REASON varchar(255) NOT NULL,
+--	AFECTS_STOCK boolean NOT NULL,
+--    	REASON_TIMESTAMP timestamp NOT NULL,
+--        PEOPLE_ID varchar(255) NOT NULL,
+--        TICKET_ID varchar(255) NOT NULL
+--)
+--;
 
         
 --CREATE TABLE units (
